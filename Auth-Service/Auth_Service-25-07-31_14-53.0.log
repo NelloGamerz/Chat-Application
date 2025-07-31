@@ -1,0 +1,2 @@
+25-07-31 14:53:54.351 [http-nio-8081-exec-6] INFO  c.e.Auth_Service.Service.AuthService - Authentication attempt for username: Pooja 
+25-07-31 14:53:54.522 [http-nio-8081-exec-6] INFO  c.e.Auth_Service.Service.AuthService - Authentication successful for username: Pooja 

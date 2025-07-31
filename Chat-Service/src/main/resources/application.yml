@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: CHAT-SERVICE
+    data:
+        mongodb:
+            uri: mongodb+srv://softwaredev1112:w2jcxLGMFLHaY47m@chat-cluster.u5owsym.mongodb.net/?retryWrites=true&w=majority&appName=chat-cluster
+            database: chat-service
+
+server:
+    port: 8083
+
+#logging:
+#    level:
+#        root: INFO
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/

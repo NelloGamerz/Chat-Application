@@ -1,0 +1,21 @@
+spring:
+    application:
+        name: AUTH-SERVICE
+    data:
+        mongodb:
+            uri: mongodb+srv://softwaredev1112:bjlpu5ClrkMIBbDu@auth-cluster.zphgnsi.mongodb.net/?retryWrites=true&w=majority&appName=auth-cluster
+            database: auth-service
+            auto-index-creation: true
+
+server:
+    port: 8081
+
+    logging:
+        level:
+            root: INFO
+
+    eureka:
+        client:
+            service-url:
+                defaultZone: http://localhost:8761/eureka/
+ 
